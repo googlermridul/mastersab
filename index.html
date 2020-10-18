@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="shortcut icon" href="img/google.png">
+   <!-- Google Font -->
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <!-- Css Links -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <!-- OWL CAROUSEL PLUGIN CSS -->
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <!-- MAGNIFIC POPUP PLUGIN CSS-->
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <!-- AOS SCROLL ANIMATION PLUGIN CSS -->
+   <link rel="stylesheet" href="css/aos.css">
+   <!-- CUSTOM CSS CODE -->
+   <link rel="stylesheet" href="css/style.css">
+   <title>Skola - A Online School</title>
+
+</head>
+<body>
+
+   <!-- LOADER -->
+   <div class="loader-bg">
+      <div class="loader"></div>
+   </div>
+
+   <!--~~~~~~~~~~~~~~~~~~ START NAVIGRATION ~~~~~~~~~~~~~~~~~~-->
+   <nav id="navigration" class="fixed-top -nav">
+      <div class="container">
+         <div class="navbar">
+            <div class="hamburger d-lg-none">
+               <span class="mr-1"><i class="fa fa-bars"></i></span>
+            </div>
+            <a href="index.html" class="navbar-brand mr-5">LOGO</a>
+            <ul class="navbar-nav">
+               <li class="hamburger-close d-lg-none">
+                  <span><i class="fa fa-times"></i></span>
+               </li>
+               <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+               <li class="nav-item"><a href="#" class="nav-link drop">All Pages <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-items down">
+                     <li><a href="course.html" class="">Featured Course</a></li>
+                     <li><a href="teacher-dashboard.html" class="">Dashboard</a></li>
+                     <li><a href="teacher-profile.html" class="">My Profile</a></li>
+                     <li><a href="Teacher-course.html" class="">All Courses</a></li>
+                     <li><a href="teacher-register.html" class="">Apply For Course</a></li>
+                  </ul>
+               </li>
+               <li class="nav-item"><a href="#" class="nav-link drop">Pages <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-items dropdown-2 down">
+                     <li><a href="#" class="">Inner Pages 1</a></li>
+                     <li><a href="#" class="">Inner Pages 1</a></li>
+                     <li><a href="#" class="drop">Inner Pages 1 <i class="fa fa-angle-right"></i></a>
+                        <ul class="dropdown-3 down">
+                           <li><a href="#" class="">Inner Pages 2</a></li>
+                           <li><a href="#" class="">Inner Pages 2</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="#" class="">Inner Pages 1</a></li>
+                     <li><a href="#" class="drop">Inner Pages 1 <i class="fa fa-angle-right"></i></a>
+                        <ul class="dropdown-3 down">
+                           <li><a href="#" class="">Inner Pages 3</a></li>
+                           <li><a href="#" class="">Inner Pages 3</a></li>
+                           <li><a href="#" class="">Inner Pages 3</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item"><a href="#" class="nav-link">Blog <i class="fa fa-angle-down"></i></a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+               <div class="social-links d-lg-none">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+               </div>
+            </ul>
+            <div class="part-2 ml-auto">
+               <span class="login-reg"><i class="fa fa-user-circle-o"></i> Login/Register</span>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <!--~~~~~~~~~~~~~~~~~~ END NAVIGRATION ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START SIDE LOGIN ~~~~~~~~~~~~~~~~~~-->
+   <div class="side-login">
+      <div class="login-box">
+         <div class="txt d-flex mb-5">
+            <h5>Login To Your Skola Account!</h5>
+            <div class="close-icon">
+               <i class="fa fa-times"></i>
+            </div>
+         </div>
+         <div class="img-box">
+            <img src="img/undraw_Access_account_re_8spm.png" alt="">
+         </div>
+         <form class="" action="" method="post">
+            <div class="input-group">
+               <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-envelope-o"></i></span>
+               </div>
+               <input class="form-control" type="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+               <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-key"></i></span>
+               </div>
+               <input class="form-control" type="password" placeholder="Password" required>
+            </div>
+            <div class="form-check d-inline-block mb-5 mr-4">
+               <input class="form-check-input" type="radio" name="gridRadios" id="gridRadio7" checked required>
+               <label class="form-check-label" for="gridRadio7">Student</label>
+            </div>
+            <div class="form-check teacher mb-5">
+               <input class="form-check-input" type="radio" name="gridRadios" id="gridRadio8" required>
+               <label class="form-check-label" for="gridRadio8">Teacher</label>
+            </div>
+            <div class="form-check d-inline">
+               <input type="checkbox" class="form-check-input" id="check1">
+               <label class="form-check-label" for="check1">Remember me</label>
+            </div>
+            <div class="forget">
+               <a href="#">Forgot Password?</a>
+            </div>
+            <div class="submit-button mt-5">
+               <button type="submit" name="button">LOGIN</button>
+            </div>
+         </form>
+         <div class="last-part text-center">
+            <p class="call-side-signup">Don't have an account? <span>Sign up</span></p>
+         </div>
+      </div>
+   </div>
+   <!--~~~~~~~~~~~~~~~~~~ END SIDE LOGIN ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START SIDE SIGNUP ~~~~~~~~~~~~~~~~~~-->
+   <div class="side-signup">
+      <div class="signup-box">
+         <div class="txt d-flex mb-5">
+            <h5>Sign Up & Start Learning!</h5>
+            <div class="close-icon">
+               <i class="fa fa-times"></i>
+            </div>
+         </div>
+         <div class="img-box">
+            <img src="img/undraw_sign_in_e6hj.png" alt="">
+         </div>
+         <form class="" action="" method="post">
+            <div class="input-group">
+               <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-user-o"></i></span>
+               </div>
+               <input type="text" class="form-control" placeholder="Enter Full Name" required>
+            </div>
+            <div class="input-group">
+               <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-envelope-o"></i></span>
+               </div>
+               <input type="email" class="form-control" placeholder="Enter a valid email" required>
+            </div>
+            <div class="input-group">
+               <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-phone"></i></span>
+               </div>
+               <input type="number" class="form-control" placeholder="Phone Number" required>
+            </div>
+            <div class="input-group">
+               <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-key"></i></span>
+               </div>
+               <input type="password" class="form-control" placeholder="Enter password" required>
+            </div>
+            <div class="submit-button mt-5">
+               <button type="submit" name="button">SIGN UP</button>
+            </div>
+         </form>
+         <div class="last-part text-center">
+            <p class="call-side-login">Already have an account? <span>Log In</p>
+            <p>For signing up as a teacher. <a href="register.html">Click Here</a></p>
+         </div>
+      </div>
+   </div>
+   <!--~~~~~~~~~~~~~~~~~~ END SIDE SIGNUP ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START HOME SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="homeSection">
+      <div class="owl-carousel">
+         <div class="front-page">
+            <div class="overlay">
+               <div class="container">
+                  <div class="row align-items-center">
+                     <div class="col-lg-6">
+                        <div class="txt-box">
+                           <div class="txt">
+                              <h2>TRANSFORM YOUR LIFE <br> THROUGH EDUCTAION</h2>
+                              <p>Technology is bringing a massive wave of evolution on learning things on different ways</p>
+                              <div class="btn-box">
+                                 <a href="#" class="btn">GET STARTED</a>
+                                 <a href="#" class="btn btn2">VIEW COURSES</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 d-none d-lg-block">
+                        <div class="row">
+                           <div class="col-sm-6 col-md-6 col-lg-4">
+                              <div class="instructor-box">
+                                 <div class="img-box">
+                                    <img class="img-fluid" src="img/samantha.jpg" alt="">
+                                    <div class="hover-item">
+                                       <div class="txt">
+                                          <a href="#">View Profile</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="txts-box">
+                                    <h5>Samantha Akkhineni</h5>
+                                    <span>English Teacher at <b>BUET</b></span>
+                                 </div>
+                                 <div class="review">
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-md-6 col-lg-4">
+                              <div class="instructor-box">
+                                 <div class="img-box">
+                                    <img class="img-fluid" src="img/samantha.jpg" alt="">
+                                    <div class="hover-item">
+                                       <div class="txt">
+                                          <a href="#">View Profile</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="txts-box">
+                                    <h5>Samantha Akkhineni</h5>
+                                    <span>English Teacher at <b>BUET</b></span>
+                                 </div>
+                                 <div class="review">
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-md-6 col-lg-4">
+                              <div class="instructor-box">
+                                 <div class="img-box">
+                                    <img class="img-fluid" src="img/samantha.jpg" alt="">
+                                    <div class="hover-item">
+                                       <div class="txt">
+                                          <a href="#">View Profile</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="txts-box">
+                                    <h5>Samantha Akkhineni</h5>
+                                    <span>English Teacher at <b>BUET</b></span>
+                                 </div>
+                                 <div class="review">
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="front-page page2">
+            <div class="overlay">
+               <div class="container">
+                  <div class="row align-items-center">
+                     <div class="col-lg-6">
+                        <div class="txt-box">
+                           <div class="txt">
+                              <h2>TRANSFORM YOUR LIFE <br> THROUGH EDUCTAION</h2>
+                              <p>Technology is bringing a massive wave of evolution on learning things on different ways</p>
+                              <div class="btn-box">
+                                 <a href="#" class="btn">GET STARTED</a>
+                                 <a href="#" class="btn btn2">VIEW COURSES</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 d-none d-lg-block">
+                        <div class="row">
+                           <div class="col-sm-6 col-md-6 col-lg-4">
+                              <div class="instructor-box">
+                                 <div class="img-box">
+                                    <img class="img-fluid" src="img/samantha.jpg" alt="">
+                                    <div class="hover-item">
+                                       <div class="txt">
+                                          <a href="#">View Profile</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="txts-box">
+                                    <h5>Samantha Akkhineni</h5>
+                                    <span>English Teacher at <b>BUET</b></span>
+                                 </div>
+                                 <div class="review">
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-md-6 col-lg-4">
+                              <div class="instructor-box">
+                                 <div class="img-box">
+                                    <img class="img-fluid" src="img/samantha.jpg" alt="">
+                                    <div class="hover-item">
+                                       <div class="txt">
+                                          <a href="#">View Profile</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="txts-box">
+                                    <h5>Samantha Akkhineni</h5>
+                                    <span>English Teacher at <b>BUET</b></span>
+                                 </div>
+                                 <div class="review">
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-md-6 col-lg-4">
+                              <div class="instructor-box">
+                                 <div class="img-box">
+                                    <img class="img-fluid" src="img/samantha.jpg" alt="">
+                                    <div class="hover-item">
+                                       <div class="txt">
+                                          <a href="#">View Profile</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="txts-box">
+                                    <h5>Samantha Akkhineni</h5>
+                                    <span>English Teacher at <b>BUET</b></span>
+                                 </div>
+                                 <div class="review">
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="front-page page3">
+            <div class="overlay">
+               <div class="container">
+                  <div class="row align-items-center">
+                     <div class="col-lg-6">
+                        <div class="txt-box">
+                           <div class="txt">
+                              <h2>TRANSFORM YOUR LIFE <br> THROUGH EDUCTAION</h2>
+                              <p>Technology is bringing a massive wave of evolution on learning things on different ways</p>
+                              <div class="btn-box">
+                                 <a href="#" class="btn">GET STARTED</a>
+                                 <a href="#" class="btn btn2">VIEW COURSES</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 d-none d-lg-block">
+                        <div class="row">
+                           <div class="col-sm-6 col-md-6 col-lg-4">
+                              <div class="instructor-box">
+                                 <div class="img-box">
+                                    <img class="img-fluid" src="img/samantha.jpg" alt="">
+                                    <div class="hover-item">
+                                       <div class="txt">
+                                          <a href="#">View Profile</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="txts-box">
+                                    <h5>Samantha Akkhineni</h5>
+                                    <span>English Teacher at <b>BUET</b></span>
+                                 </div>
+                                 <div class="review">
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-md-6 col-lg-4">
+                              <div class="instructor-box">
+                                 <div class="img-box">
+                                    <img class="img-fluid" src="img/samantha.jpg" alt="">
+                                    <div class="hover-item">
+                                       <div class="txt">
+                                          <a href="#">View Profile</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="txts-box">
+                                    <h5>Samantha Akkhineni</h5>
+                                    <span>English Teacher at <b>BUET</b></span>
+                                 </div>
+                                 <div class="review">
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-md-6 col-lg-4">
+                              <div class="instructor-box">
+                                 <div class="img-box">
+                                    <img class="img-fluid" src="img/samantha.jpg" alt="">
+                                    <div class="hover-item">
+                                       <div class="txt">
+                                          <a href="#">View Profile</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="txts-box">
+                                    <h5>Samantha Akkhineni</h5>
+                                    <span>English Teacher at <b>BUET</b></span>
+                                 </div>
+                                 <div class="review">
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--~~~~~~~~~~~~~~~~~~ END HOME SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START CATEGORIES SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="categorySection">
+      <div class="container">
+         <div class="row mb-5">
+            <div class="col">
+               <div class="info text-center">
+                  <h3>Select Your Path</h3>
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, fugit.</span>
+               </div>
+               <div class="select-btn mx-auto">
+                  <button class="btn active-btn" type="button" onclick="loadDoc2()" name="button">BANGLA MEDIUM</button>
+                  <button class="btn" type="button" onclick="loadDoc3()" name="button">ENGLISH MEDIUM</button>
+               </div>
+            </div>
+         </div>
+         <div id="demo">
+            <div class="row text-center category-ban">
+               <div class="col-sm-6 col-md-4 col-lg-3">
+                  <a href="#">
+                     <div class="edu-box">
+                        <div class="img-box">
+                           <img src="img/pencil.png" alt="">
+                        </div>
+                        <div class="txt">
+                           <h5>Class one</h5>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-sm-6 col-md-4 col-lg-3">
+                  <a href="#">
+                     <div class="edu-box">
+                        <div class="img-box">
+                           <img src="img/abc.png" alt="">
+                        </div>
+                        <div class="txt">
+                           <h5>Class Two</h5>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-sm-6 col-md-4 col-lg-3">
+                  <a href="#">
+                     <div class="edu-box">
+                        <div class="img-box">
+                           <img src="img/jigsaw.png" alt="">
+                        </div>
+                        <div class="txt">
+                           <h5>Class Three</h5>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-sm-6 col-md-4 col-lg-3">
+                  <a href="#">
+                     <div class="edu-box">
+                        <div class="img-box">
+                           <img src="img/maths.png" alt="">
+                        </div>
+                        <div class="txt">
+                           <h5>Class Four</h5>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-sm-6 col-md-4 col-lg-3">
+                  <a href="#">
+                     <div class="edu-box">
+                        <div class="img-box">
+                           <img src="img/pec.png" alt="">
+                        </div>
+                        <div class="txt">
+                           <h5>PEC Education</h5>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-sm-6 col-md-4 col-lg-3">
+                  <a href="#">
+                     <div class="edu-box">
+                        <div class="img-box">
+                           <img src="img/high-school.png" alt="">
+                        </div>
+                        <div class="txt">
+                           <h5>Class Six</h5>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-sm-6 col-md-4 col-lg-3">
+                  <a href="#">
+                     <div class="edu-box">
+                        <div class="img-box">
+                           <img src="img/mathematics.png" alt="">
+                        </div>
+                        <div class="txt">
+                           <h5>Class Seven</h5>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-sm-6 col-md-4 col-lg-3">
+                  <a href="#">
+                     <div class="edu-box">
+                        <div class="img-box">
+                           <img src="img/jsc.png" alt="">
+                        </div>
+                        <div class="txt">
+                           <h5>JSC Educatoin</h5>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-sm-6 col-md-4 col-lg-6">
+                  <a href="#">
+                     <div class="edu-box">
+                        <div class="img-box">
+                           <img src="img/knowledge.png" alt="">
+                        </div>
+                        <div class="txt">
+                           <h5>SSC Education</h5>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-sm-6 col-md-4 col-lg-6">
+                  <a href="#">
+                     <div class="edu-box">
+                        <div class="img-box">
+                           <img src="img/graduation.png" alt="">
+                        </div>
+                        <div class="txt">
+                           <h5>HSC Education</h5>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <script type="text/javascript">
+      function loadDoc2() {
+         var xhttp = new XMLHttpRequest();
+         xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("demo").innerHTML =
+            this.responseText;
+            }
+         };
+         xhttp.open("GET", "category-ban.html", true);
+         xhttp.send();
+      }
+      function loadDoc3() {
+         var xhttp = new XMLHttpRequest();
+         xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("demo").innerHTML =
+            this.responseText;
+            }
+         };
+         xhttp.open("GET", "category-eng.html", true);
+         xhttp.send();
+      }
+   </script>
+   <!--~~~~~~~~~~~~~~~~~~ END CATEGORIES SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START COURSE SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="courseScetion" class="">
+      <div class="container">
+         <div class="row text-center">
+            <div class="col">
+               <div class="info">
+                  <h3>Featured Courses</h3>
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, fugit.</span>
+               </div>
+               <div class="load-more ml-auto">
+                  <a href="course.html">Browse All <i class="fa fa-angle-right"></i></a>
+               </div>
+            </div>
+         </div>
+         <div class="row mt-5">
+            <div class="col-md-6 col-lg-4">
+               <div class="course-box">
+                  <div class="img-box">
+                     <img class="img-fluid" src="img/pexels-photo-3184638.jpeg" alt="">
+                     <div class="author">
+                        <img src="img/samantha.jpg" alt="">
+                     </div>
+                  </div>
+                  <div class="txt-box">
+                     <span class="tag">Photography</span>
+                     <p>Fashion Photography From Professional</p>
+                     <div class="review">
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                     </div>
+                     <div class="d-flex">
+                        <div class="schedule">
+                           <span><i class="fa fa-clock-o"></i> 3:00pm - 5:00pm</span>
+                        </div>
+                        <div class="price">
+                           <span>$21.99</span>
+                        </div>
+                     </div>
+                     <div class="checkout-btn">
+                        <a href="#" class="btn" data-toggle="modal" data-target="#checkoutmodal"><i class="fa fa-shopping-cart"></i> Register Course</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+               <div class="course-box">
+                  <div class="img-box">
+                     <img class="img-fluid" src="img/pexels-photo-3184638.jpeg" alt="">
+                     <div class="author">
+                        <img src="img/samantha.jpg" alt="">
+                     </div>
+                  </div>
+                  <div class="txt-box">
+                     <span class="tag">Photography</span>
+                     <p>Fashion Photography From Professional</p>
+                     <div class="review">
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                     </div>
+                     <div class="d-flex">
+                        <div class="schedule">
+                           <span><i class="fa fa-clock-o"></i> 3:00pm - 5:00pm</span>
+                        </div>
+                        <div class="price">
+                           <span>$21.99</span>
+                        </div>
+                     </div>
+                     <div class="checkout-btn">
+                        <a href="#" class="btn btn-red" data-toggle="modal" data-target="#checkoutmodal"><i class="fa fa-shopping-cart"></i> Register Course</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+               <div class="course-box">
+                  <div class="img-box">
+                     <img class="img-fluid" src="img/pexels-photo-3184638.jpeg" alt="">
+                     <div class="author">
+                        <img src="img/samantha.jpg" alt="">
+                     </div>
+                  </div>
+                  <div class="txt-box">
+                     <span class="tag">Photography</span>
+                     <p>Fashion Photography From Professional</p>
+                     <div class="review">
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                        <span><i class="fa fa-star"></i></span>
+                     </div>
+                     <div class="d-flex">
+                        <div class="schedule">
+                           <span><i class="fa fa-clock-o"></i> 3:00pm - 5:00pm</span>
+                        </div>
+                        <div class="price">
+                           <span>$21.99</span>
+                        </div>
+                     </div>
+                     <div class="checkout-btn">
+                        <a href="#" class="btn btn-blue" data-toggle="modal" data-target="#checkoutmodal"><i class="fa fa-shopping-cart"></i> Register Course</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--~~~~~~~~~~~~~~~~~~ END COURSE SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START CHOOSE SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="chooseSection" class="text-center">
+      <div class="container">
+         <div class="row mb-5">
+            <div class="col">
+               <div class="info">
+                  <h3>Why Study With Skola</h3>
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-4 mt-5">
+               <div class="box">
+                  <div class="icon">
+                     <img src="img/ebook.png" alt="">
+                  </div>
+                  <div class="txt">
+                     <h5>Learn Anything</h5>
+                     <span>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 mt-5">
+               <div class="box">
+                  <div class="icon icon2">
+                     <img src="img/ring.png" alt="">
+                  </div>
+                  <div class="txt">
+                     <h5>Flexible Learning</h5>
+                     <span>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 mt-5">
+               <div class="box">
+                  <div class="icon icon3">
+                     <img src="img/book.png" alt="">
+                  </div>
+                  <div class="txt">
+                     <h5>Learn With Experts</h5>
+                     <span>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--~~~~~~~~~~~~~~~~~~ END CHOOSE SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START INSTRUCTOR SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="instructorSection">
+      <div class="container">
+         <div class="row text-center">
+            <div class="col">
+               <div class="info">
+                  <h3>Top Ratings Instructors</h3>
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, fugit.</span>
+               </div>
+            </div>
+         </div>
+         <div class="row mt-5 pt-5">
+            <div class="owl-carousel">
+               <div class="instructor-box">
+                  <div class="img-box">
+                     <img class="img-fluid" src="img/samantha.jpg" alt="">
+                     <div class="hover-item">
+                        <div class="txt">
+                           <a href="#">View Profile</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="txt-box">
+                     <h5>Samantha Akkhineni</h5>
+                     <span>English Teacher at <b>BUET</b></span>
+                  </div>
+                  <div class="review">
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                  </div>
+               </div>
+               <div class="instructor-box">
+                  <div class="img-box">
+                     <img class="img-fluid" src="img/samantha.jpg" alt="">
+                     <div class="hover-item">
+                        <div class="txt">
+                           <a href="#">View Profile</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="txt-box">
+                     <h5>Samantha Akkhineni</h5>
+                     <span>English Teacher at <b>BUET</b></span>
+                  </div>
+                  <div class="review">
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--~~~~~~~~~~~~~~~~~~ END INSTRUCTOR SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START TESTIMONIAL SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="testimonialSection" class="">
+      <div class="container">
+         <div class="row text-center mb-5 pb-5">
+            <div class="col">
+               <div class="info">
+                  <h3>What Our Students Have To Say</h3>
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, fugit.</span>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="owl-carousel">
+               <div class="testimonial-box">
+                  <div class="description">
+                     <p class="m-0">Samantha did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose.</p>
+                  </div>
+                  <div class="header">
+                     <div class="client-img">
+                        <img src="img/samantha.jpg" alt="">
+                     </div>
+                     <div class="about-client">
+                        <p class="m-0">Samantha</p>
+                        <span>Entrepreneur</span>
+                     </div>
+                     <div class="quote">
+                        <img src="img/quote.png" alt="">
+                     </div>
+                  </div>
+               </div>
+               <div class="testimonial-box">
+                  <div class="description">
+                     <p class="m-0">Samantha did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose.</p>
+                  </div>
+                  <div class="header">
+                     <div class="client-img">
+                        <img src="img/samantha.jpg" alt="">
+                     </div>
+                     <div class="about-client">
+                        <p class="m-0">Samantha</p>
+                        <span>Entrepreneur</span>
+                     </div>
+                     <div class="quote">
+                        <img src="img/quote.png" alt="">
+                     </div>
+                  </div>
+               </div>
+               <div class="testimonial-box">
+                  <div class="description">
+                     <p class="m-0">Samantha did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose.</p>
+                  </div>
+                  <div class="header">
+                     <div class="client-img">
+                        <img src="img/samantha.jpg" alt="">
+                     </div>
+                     <div class="about-client">
+                        <p class="m-0">Samantha</p>
+                        <span>Entrepreneur</span>
+                     </div>
+                     <div class="quote">
+                        <img src="img/quote.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--~~~~~~~~~~~~~~~~~~ END TESTIMONIAL SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START VIDEO SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="videoSection" class="text-center">
+      <div class="overlay">
+         <div class="container">
+            <div class="row">
+               <div class="col">
+                  <div id="portfolio" class="video-box">
+                     <div class="txt">
+                        <h3>Watch Campus Life Video Tour</h3>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, fugit.</span>
+                        <div class="img-box mt-5">
+                           <a class="pop-video" href="https://www.youtube.com/watch?v=cajSxnjQC00"><img src="img/play-button.png" alt=""></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--~~~~~~~~~~~~~~~~~~ END VIDEO SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START NEWSLETTER SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="newsletterSection" class="text-center">
+      <div class="overlay">
+         <div class="container">
+            <div class="row">
+               <div class="col">
+                  <div class="info">
+                     <h3>Subscribe Our Newsletter</h3>
+                     <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, fugit.</span>
+                     <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Enter Your Email">
+                        <div class="input-group-append">
+                           <a href="#" class="input-group-text">Subscribe Now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--~~~~~~~~~~~~~~~~~~ END NEWSLETTER SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START CONTACT SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="contactSection">
+      <div class="container">
+         <div class="row text-center mb-5 pb-5">
+            <div class="col">
+               <div class="info">
+                  <h3>Get In Touch</h3>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+         <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="part1">
+               <h5 class="mb-5">Contact Details</h5>
+               <div class="row">
+                  <div class="col-md-6 box">
+                     <div class="icon mr-2">
+                        <i class="fa fa-map-marker"></i>
+                     </div>
+                     <div class="text">
+                        <h5>Find Us</h5>
+                        <P>Elston TCLExtengtion</P>
+                        <p>London, UK</p>
+                     </div>
+                  </div>
+                  <div class="col-md-6 box">
+                     <div class="icon mr-2">
+                        <i class="fa fa-phone"></i>
+                     </div>
+                     <div class="text">
+                        <h5>Phone</h5>
+                        <P>+8801636754683456</P>
+                        <P>+8801636754683456</P>
+                     </div>
+                  </div>
+                  <div class="col-md-6 box">
+                     <div class="icon mr-2">
+                        <i class="fa fa-clock-o"></i>
+                     </div>
+                     <div class="text">
+                        <h5>Working Hours</h5>
+                        <P>Elston TCLExtengtion</P>
+                        <p>London, UK</p>
+                     </div>
+                  </div>
+                  <div class="col-md-6 box">
+                     <div class="icon mr-2">
+                        <i class="fa fa-pencil-square-o"></i>
+                     </div>
+                     <div class="text">
+                        <h5>Write To Us</h5>
+                        <P>mastersaheb@gmail.com</P>
+                        <P>mastersaheb@gmail.com</P>
+                     </div>
+                  </div>
+                  <div class="col-md-6 box">
+                     <div class="icon mr-2">
+                        <i class="fa fa-share-alt"></i>
+                     </div>
+                     <div class="text">
+                        <h5>Follow Us On</h5>
+                        <div class="social-links">
+                           <a href="#"><i class="fa fa-facebook"></i></a>
+                           <a href="#"><i class="fa fa-instagram"></i></a>
+                           <a href="#"><i class="fa fa-twitter"></i></a>
+                           <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+            <div class="col-lg-6 mt-5 mt-lg-0">
+               <div class="part2">
+                  <h5 class="mb-5">Have A Question?</h5>
+                  <form class="" action="index.html" method="post">
+                     <div class="row">
+                        <div class="col-md-6 form-group">
+                           <input type="text" class="form-control" id="" placeholder="Your name" required>
+                        </div>
+                        <div class="col-md-6 form-group">
+                           <input type="text" class="form-control" id="" placeholder="Email Address" required>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <textarea class="form-control" name="name" rows="4" cols="40" placeholder="Message" required></textarea>
+                     </div>
+                     <button type="submit" class="btn">Send</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--~~~~~~~~~~~~~~~~~~ END CONTACT SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START FOOTER SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="footerSection" class="text-light">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 col-lg-3 my-5">
+               <div class="part1">
+                  <h5 class="mb-5"><a href="#">LOGO</a></h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, fugit.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, fugit.</p>
+               </div>
+            </div>
+            <div class="col-md-6 col-lg-3 my-5">
+               <div class="part2">
+                  <h5 class="mb-5">Contact Us</h5>
+                  <p><i class="fa fa-map-marker"></i> Dhaka, Bangladesh</p>
+                  <p><i class="fa fa-phone"></i> +880 123 456 789</p>
+                  <p><i class="fa fa-envelope-o"></i> skola@gmail.com</p>
+                  <div class="social-links">
+                     <p class="ml-3">follow us on:</p>
+                     <a href="#"><i class="fa fa-facebook"></i></a>
+                     <a href="#"><i class="fa fa-instagram"></i></a>
+                     <a href="#"><i class="fa fa-twitter"></i></a>
+                     <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-lg-3 my-5">
+               <div class="part3">
+                  <h5 class="mb-5">Our Company</h5>
+                  <div class="d-flex">
+                     <ul class="mr-5">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                     </ul>
+                     <ul class="ml-5">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-lg-3 my-5">
+               <div class="part4">
+                  <h5 class="mb-5">Our Services</h5>
+                  <div class="d-flex">
+                     <ul class="">
+                        <li><a href="#">Class One to Four</a></li>
+                        <li><a href="#">Class Six to Seven</a></li>
+                        <li><a href="#">PEC Examination</a></li>
+                        <li><a href="#">JSC Examination</a></li>
+                        <li><a href="#">SSC Examination</a></li>
+                        <li><a href="#">HSC Examination</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--~~~~~~~~~~~~~~~~~~ START FOOTER SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START SCROLL UP ICON ~~~~~~~~~~~~~~~~~~-->
+   <a href="#" class="scroll-up">
+      <img src="img/arrow-up.png" alt="">
+   </a>
+   <!--~~~~~~~~~~~~~~~~~~ END SCROLL UP ICON ~~~~~~~~~~~~~~~~~~-->
+
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START CHECKOUT MODAL ~~~~~~~~~~~~~~~~~~-->
+   <div id="checkoutmodal" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+           <div class="modal-header">
+               <h5 class="mb-0">Confirmation alert!</h5>
+               <button class="close btn" data-dismiss="modal"><i class="fa fa-times"></i></button>
+           </div>
+           <div class="modal-body">
+               <p class="mb-4 ">Are you sure you want to purchase this course?</p>
+               <div class="btn-box">
+                  <a href="payment.html" class="btn mr-3"><i class="fa fa-shopping-cart"></i> Purchase now</a>
+                  <a href="payment.html" class="btn"><i class="fa fa-shopping-cart"></i> Purchase now</a>
+               </div>
+           </div>
+        </div>
+      </div>
+   </div>
+   <!--~~~~~~~~~~~~~~~~~~ END CHECKOUT MODAL ~~~~~~~~~~~~~~~~~~-->
+
+
+
+   <!--~~~~~~~~~~~~~~~~~~ JAVASCRIPT LINKS ~~~~~~~~~~~~~~~~~~-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <!-- OWL CAROUSEL PLUGIN -->
+   <script src="js/owl.carousel.min.js"></script>
+   <!-- MAGNIFIC POPUP PLUGIN -->
+   <script src="js/jquery.magnific-popup.min.js"></script>
+   <!-- AOS SCROLL ANIMATION PLUGIN -->
+   <script src="js/aos.js"></script>
+   <script src="js/jquery.waypoints.min.js"></script>
+   <!-- CUSTOM JS CODE -->
+   <script src="js/style.js"></script>
+
+</body>
+</html>

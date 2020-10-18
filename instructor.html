@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="shortcut icon" href="img/google.png">
+   <!-- Google Font -->
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <!-- Css Links -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <!-- OWL CAROUSEL PLUGIN CSS -->
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <!-- MAGNIFIC POPUP PLUGIN CSS-->
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <!-- AOS SCROLL ANIMATION PLUGIN CSS -->
+   <link rel="stylesheet" href="css/aos.css">
+   <!-- CUSTOM CSS CODE -->
+   <link rel="stylesheet" href="css/style.css">
+   <title>Skola - A Online School</title>
+
+</head>
+<body>
+
+   <!--~~~~~~~~~~~~~~~~~~ START NAVIGRATION ~~~~~~~~~~~~~~~~~~-->
+   <nav id="navigration" class="fixed-top active-nav">
+      <div class="container">
+         <div class="navbar">
+            <div class="hamburger d-lg-none">
+               <span class="mr-1"><i class="fa fa-bars"></i></span>
+            </div>
+            <a href="index.html" class="navbar-brand mr-5">LOGO</a>
+            <ul class="navbar-nav">
+               <li class="hamburger-close d-lg-none">
+                  <span><i class="fa fa-times"></i></span>
+               </li>
+               <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+               <li class="nav-item"><a href="#" class="nav-link drop">All Pages <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-items down">
+                     <li><a href="course.html" class="">Featured Course</a></li>
+                     <li><a href="teacher-dashboard.html" class="">Dashboard</a></li>
+                     <li><a href="teacher-profile.html" class="">My Profile</a></li>
+                     <li><a href="Teacher-course.html" class="">All Courses</a></li>
+                     <li><a href="teacher-register.html" class="">Apply For Course</a></li>
+                  </ul>
+               </li>
+               <li class="nav-item"><a href="#" class="nav-link drop">Pages <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-items dropdown-2 down">
+                     <li><a href="#" class="">Inner Pages 1</a></li>
+                     <li><a href="#" class="">Inner Pages 1</a></li>
+                     <li><a href="#" class="drop">Inner Pages 1 <i class="fa fa-angle-right"></i></a>
+                        <ul class="dropdown-3 down">
+                           <li><a href="#" class="">Inner Pages 2</a></li>
+                           <li><a href="#" class="">Inner Pages 2</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="#" class="">Inner Pages 1</a></li>
+                     <li><a href="#" class="drop">Inner Pages 1 <i class="fa fa-angle-right"></i></a>
+                        <ul class="dropdown-3 down">
+                           <li><a href="#" class="">Inner Pages 3</a></li>
+                           <li><a href="#" class="">Inner Pages 3</a></li>
+                           <li><a href="#" class="">Inner Pages 3</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item"><a href="#" class="nav-link">Blog <i class="fa fa-angle-down"></i></a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+               <div class="social-links d-lg-none">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+               </div>
+            </ul>
+            <div class="part-2 ml-auto">
+               <span class="login-reg"><i class="fa fa-user-circle-o"></i> Login/Register</span>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <!--~~~~~~~~~~~~~~~~~~ END NAVIGRATION ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START SIDE LOGIN ~~~~~~~~~~~~~~~~~~-->
+   <div class="side-login">
+      <div class="login-box">
+         <div class="txt d-flex mb-5">
+            <h5>Login To Your Skola Account!</h5>
+            <div class="close-icon">
+               <i class="fa fa-times"></i>
+            </div>
+         </div>
+         <div class="img-box">
+            <img src="img/undraw_Access_account_re_8spm.png" alt="">
+         </div>
+         <form class="" action="" method="post">
+            <div class="input-group">
+               <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-envelope-o"></i></span>
+               </div>
+               <input class="form-control" type="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+               <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-key"></i></span>
+               </div>
+               <input class="form-control" type="password" placeholder="Password" required>
+            </div>
+            <div class="form-check d-inline-block mb-5 mr-4">
+               <input class="form-check-input" type="radio" name="gridRadios" id="gridRadio7" checked required>
+               <label class="form-check-label" for="gridRadio7">Student</label>
+            </div>
+            <div class="form-check teacher mb-5">
+               <input class="form-check-input" type="radio" name="gridRadios" id="gridRadio8" required>
+               <label class="form-check-label" for="gridRadio8">Teacher</label>
+            </div>
+            <div class="form-check d-inline">
+               <input type="checkbox" class="form-check-input" id="check1">
+               <label class="form-check-label" for="check1">Remember me</label>
+            </div>
+            <div class="forget">
+               <a href="#">Forgot Password?</a>
+            </div>
+            <div class="submit-button mt-5">
+               <button type="submit" name="button">LOGIN</button>
+            </div>
+         </form>
+         <div class="last-part text-center">
+            <span class="call-side-signup">Don't have an account? <a href="#">Sign up</a></span>
+         </div>
+      </div>
+   </div>
+   <!--~~~~~~~~~~~~~~~~~~ END SIDE LOGIN ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START SIDE SIGNUP ~~~~~~~~~~~~~~~~~~-->
+   <div class="side-signup">
+      <div class="signup-box">
+         <div class="txt d-flex mb-5">
+            <h5>Sign Up & Start Learning!</h5>
+            <div class="close-icon">
+               <i class="fa fa-times"></i>
+            </div>
+         </div>
+         <div class="img-box">
+            <img src="img/undraw_sign_in_e6hj.png" alt="">
+         </div>
+         <form class="" action="" method="post">
+            <div class="input-group">
+               <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-user-o"></i></span>
+               </div>
+               <input type="text" class="form-control" placeholder="Enter Full Name" required>
+            </div>
+            <div class="input-group">
+               <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-envelope-o"></i></span>
+               </div>
+               <input type="email" class="form-control" placeholder="Enter a valid email" required>
+            </div>
+            <div class="input-group">
+               <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-phone"></i></span>
+               </div>
+               <input type="number" class="form-control" placeholder="Phone Number" required>
+            </div>
+            <div class="input-group">
+               <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-key"></i></span>
+               </div>
+               <input type="password" class="form-control" placeholder="Enter password" required>
+            </div>
+            <div class="submit-button mt-5">
+               <button type="submit" name="button">SIGN UP</button>
+            </div>
+         </form>
+         <div class="last-part text-center">
+            <span class="call-side-login">Already have an account? <a href="#">Log In</a></span><br>
+            <span>For signing up as a teacher. <a href="register.html">Click Here</a></span>
+         </div>
+      </div>
+   </div>
+   <!--~~~~~~~~~~~~~~~~~~ END SIDE SIGNUP ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START INSTRUCTOR PAGE HEADER SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="pageHeader" class="instructor-page-header text-center">
+      <div class="container">
+         <div class="row">
+            <div class="col">
+               <div class="txt-box">
+                  <div class="txt">
+                     <h3>Top Ratings Instructors</h3>
+                  </div>
+               </div>
+               <div class="img-box">
+                  <img class="img-fluid" src="img/undraw_teacher.png" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--~~~~~~~~~~~~~~~~~~ END INSTRUCTOR PAGE HEADER SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START INSTRUCTOR PAGE MAIN SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="instructorSection" class="instructor-page">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+               <div class="instructor-box">
+                  <div class="img-box">
+                     <img class="img-fluid" src="img/samantha.jpg" alt="">
+                     <div class="hover-item">
+                        <div class="txt">
+                           <a href="#">View Profile</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="txt-box">
+                     <h5>Samantha Akkhineni</h5>
+                     <span>English Teacher at <b>BUET</b></span>
+                  </div>
+                  <div class="review">
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+               <div class="instructor-box">
+                  <div class="img-box">
+                     <img class="img-fluid" src="img/samantha.jpg" alt="">
+                     <div class="hover-item">
+                        <div class="txt">
+                           <a href="#">View Profile</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="txt-box">
+                     <h5>Samantha Akkhineni</h5>
+                     <span>English Teacher at <b>BUET</b></span>
+                  </div>
+                  <div class="review">
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+               <div class="instructor-box">
+                  <div class="img-box">
+                     <img class="img-fluid" src="img/samantha.jpg" alt="">
+                     <div class="hover-item">
+                        <div class="txt">
+                           <a href="#">View Profile</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="txt-box">
+                     <h5>Samantha Akkhineni</h5>
+                     <span>English Teacher at <b>BUET</b></span>
+                  </div>
+                  <div class="review">
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+               <div class="instructor-box">
+                  <div class="img-box">
+                     <img class="img-fluid" src="img/samantha.jpg" alt="">
+                     <div class="hover-item">
+                        <div class="txt">
+                           <a href="#">View Profile</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="txt-box">
+                     <h5>Samantha Akkhineni</h5>
+                     <span>English Teacher at <b>BUET</b></span>
+                  </div>
+                  <div class="review">
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                     <span><i class="fa fa-star"></i></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--~~~~~~~~~~~~~~~~~~ END INSTRUCTOR PAGE MAIN SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START FOOTER SECTION ~~~~~~~~~~~~~~~~~~-->
+   <section id="footerSection" class="text-light">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 col-lg-3 my-5">
+               <div class="part1">
+                  <h5 class="mb-5"><a href="#">LOGO</a></h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, fugit.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, fugit.</p>
+               </div>
+            </div>
+            <div class="col-md-6 col-lg-3 my-5">
+               <div class="part2">
+                  <h5 class="mb-5">Contact Us</h5>
+                  <p><i class="fa fa-map-marker"></i> Dhaka, Bangladesh</p>
+                  <p><i class="fa fa-phone"></i> +880 123 456 789</p>
+                  <p><i class="fa fa-envelope-o"></i> skola@gmail.com</p>
+                  <div class="social-links">
+                     <p class="ml-3">follow us on:</p>
+                     <a href="#"><i class="fa fa-facebook"></i></a>
+                     <a href="#"><i class="fa fa-instagram"></i></a>
+                     <a href="#"><i class="fa fa-twitter"></i></a>
+                     <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-lg-3 my-5">
+               <div class="part3">
+                  <h5 class="mb-5">Our Company</h5>
+                  <div class="d-flex">
+                     <ul class="mr-5">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                     </ul>
+                     <ul class="ml-5">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About us</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-lg-3 my-5">
+               <div class="part4">
+                  <h5 class="mb-5">Our Services</h5>
+                  <div class="d-flex">
+                     <ul class="">
+                        <li><a href="#">Class One to Four</a></li>
+                        <li><a href="#">Class Six to Seven</a></li>
+                        <li><a href="#">PEC Examination</a></li>
+                        <li><a href="#">JSC Examination</a></li>
+                        <li><a href="#">SSC Examination</a></li>
+                        <li><a href="#">HSC Examination</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--~~~~~~~~~~~~~~~~~~ START FOOTER SECTION ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START SCROLL UP ICON ~~~~~~~~~~~~~~~~~~-->
+   <a href="#" class="scroll-up">
+      <img src="img/arrow-up.png" alt="">
+   </a>
+   <!--~~~~~~~~~~~~~~~~~~ END SCROLL UP ICON ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START CHECKOUT MODAL ~~~~~~~~~~~~~~~~~~-->
+   <div id="checkoutmodal" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+           <div class="modal-header">
+               <h5 class="mb-0">Confirmation alert!</h5>
+               <button class="close btn" data-dismiss="modal"><i class="fa fa-times"></i></button>
+           </div>
+           <div class="modal-body">
+               <p class="mb-4 ">Are you sure you want to purchase this course?</p>
+               <div class="btn-box">
+                  <a href="payment.html" class="btn mr-3"><i class="fa fa-shopping-cart"></i> Purchase now</a>
+                  <a href="payment.html" class="btn"><i class="fa fa-shopping-cart"></i> Purchase now</a>
+               </div>
+           </div>
+        </div>
+      </div>
+   </div>
+   <!--~~~~~~~~~~~~~~~~~~ END CHECKOUT MODAL ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ START ONETIME PASSWORD MODAL ~~~~~~~~~~~~~~~~~~-->
+   <div id="otpmodal" class="modal">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="mb-0">Confirmation alert!</h5>
+               <botton class="close" data-dismiss="modal"><i class="fa fa-times"></i></botton>
+            </div>
+            <div class="modal-body text-center">
+               <p class="mb-4 ">OTP is sent to your phone number</p>
+               <form class="" action="index.html" method="post">
+                  <div class="form-group">
+                     <input type="number" class="form-control" id="" placeholder="Enter Code">
+                  </div>
+                  <button class="btn" type="submit" name="button">Verify</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--~~~~~~~~~~~~~~~~~~ END ONETIME PASSWORD MODAL ~~~~~~~~~~~~~~~~~~-->
+
+
+   <!--~~~~~~~~~~~~~~~~~~ JAVASCRIPT LINKS ~~~~~~~~~~~~~~~~~~-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <!-- OWL CAROUSEL PLUGIN -->
+   <script src="js/owl.carousel.min.js"></script>
+   <!-- MAGNIFIC POPUP PLUGIN -->
+   <script src="js/jquery.magnific-popup.min.js"></script>
+   <!-- AOS SCROLL ANIMATION PLUGIN -->
+   <script src="js/aos.js"></script>
+   <script src="js/jquery.waypoints.min.js"></script>
+   <!-- CUSTOM JS CODE -->
+   <script src="js/style.js"></script>
+
+</body>
+</html>
